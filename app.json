@@ -1,10 +1,17 @@
 {
   "expo": {
-    "name": "ChatBot",
-    "slug": "ChatBot",
+    "plugins": ["@react-native-voice/voice"],
+    "name": "AI Buddy",
+    "slug": "ai_buddy",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "2d68c5f7-62ed-4b50-8a3a-ad2cdfd64913"
+      }
+    }
   }
+  
 }
