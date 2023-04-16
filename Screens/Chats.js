@@ -204,7 +204,7 @@ export default function Chats({navigation,route}) {
 
 
 	const configuration = new Configuration({
-		apiKey: "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",
+		apiKey: "OPENAIKEY",
 	});
 
 	const openai = new OpenAIApi(configuration);
